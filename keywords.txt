@@ -1,0 +1,62 @@
+#######################################
+# Синтаксическая карта для ESP_ChaCha
+#######################################
+
+#######################################
+# Классы (KEYWORD1)
+#######################################
+ESP_ChaCha	KEYWORD1
+
+# Типы колбэков
+ChaChaMessageCallback	KEYWORD1
+ChaChaClientCallback	KEYWORD1
+
+#######################################
+# Методы класса ESP_ChaCha (KEYWORD2)
+#######################################
+
+# Инициализация
+begin	KEYWORD2
+useKey	KEYWORD2
+generateKey	KEYWORD2
+
+# Колбэки
+onMessage	KEYWORD2
+onClient	KEYWORD2
+
+# Главный цикл
+loop	KEYWORD2
+
+# Отправка данных
+broadcast	KEYWORD2
+sendTo	KEYWORD2
+
+# Состояние соединений
+connectedCount	KEYWORD2
+isConnected	KEYWORD2
+
+# Работа с ключом
+keyAsHexString	KEYWORD2
+rawKey	KEYWORD2
+
+# QR-код
+generateQR	KEYWORD2
+
+# Статистика
+stats	KEYWORD2
+resetStats	KEYWORD2
+
+# Вспомогательная функция (QR-модуль)
+espChaChaGenerateQR	KEYWORD2
+
+#######################################
+# Константы (LITERAL1)
+#######################################
+CHACHA_KEY_SIZE	LITERAL1
+CHACHA_NONCE_SIZE	LITERAL1
+CHACHA_TAG_SIZE	LITERAL1
+CHACHA_MAX_PACKET	LITERAL1
+CHACHA_MAX_CLIENTS	LITERAL1
+CHACHA_RX_TIMEOUT_MS	LITERAL1
+CHACHA_KEY_FILE	LITERAL1
+CHACHA_QR_FILE	LITERAL1

@@ -1,0 +1,4 @@
+ESP_ChaCha — тест клиент для SensorServer.
+
+Подключается к SensorServer, получает данные от эмитированных датчиков в реальном времени.
+Команды: getSensors, setInterval, ping, getStats, resetStats.
