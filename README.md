@@ -84,7 +84,7 @@ void setup() {
   Serial.begin(115200);
   delay(3000);  // Пауза чтобы успеть открыть монитор порта
 
-  WiFi.begin("Tech_Test", "Lynx123456789");
+  WiFi.begin("Test", "123456789");
   Serial.println(F("Подключаемся к Wi-Fi"));
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
